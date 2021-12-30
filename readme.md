@@ -36,7 +36,7 @@ This application is utilized to make download from GetPexels Images to auxiliary
 
 ### Tkinter on Linux Debian Derivates
 
->> Tkinter on Debian > Fist enter root with $ ```su``` or $ ```sudo i```, so enter:
+>> Tkinter on Debian > Fist enter root with $ ```su``` or $ ```sudo -i```, so enter:
 
 * $ ```apt install python3-tk```
 
