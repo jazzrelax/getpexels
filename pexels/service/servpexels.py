@@ -1,4 +1,6 @@
+from core.tools.tools import joindirfile
 from pexels.model.pexels import Pexels
+from pexels.download.getpexels import GetPexels
 
 
 class ServPexels:
@@ -9,10 +11,18 @@ class ServPexels:
         jazzrelax
     """
 
+    HTMLPATH = joindirfile(pathfile='/pages/pexels-{}.html')
+
     def __init__(self):
         """New Service Pexels.
         """
-        pass
+        self._getpexels = GetPexels(pexelshtml=self.HTMLPATH)
+
+    # getter
+
+    @property
+    def getpexels(self):
+        return self._getpexels
 
     # main method from that class
 
