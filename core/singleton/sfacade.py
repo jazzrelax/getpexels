@@ -1,5 +1,4 @@
 from core.facade.facade import Facade
-from pexels.model.pexels import Pexels
 
 
 class SFacade:
