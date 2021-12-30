@@ -46,4 +46,6 @@ This application is utilized to make download from GetPexels Images to auxiliary
 
 This software only ask for the link of a image from [Pexels](https://www.pexels.com/). One or more urls, and a path directory to save the image(s). It works with GUI and CLI options.
 
+> Note: To make download, you need to access [Pexels](https://www.pexels.com/) and click at a image from your search, then ```copy the url``` at broswer, so you will set it at the application with save directory.
+
 That's all folks!
