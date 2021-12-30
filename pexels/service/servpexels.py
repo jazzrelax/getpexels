@@ -27,3 +27,27 @@ class ServPexels:
             bool: True if downloaded else False.
         """
         pass
+
+    def pexels_html(self, pexels: Pexels) -> bool:
+        """This method checks and try to make download
+        from Pexels webpage html.
+
+        Args:
+            pexels (Pexels): Model to download.
+
+        Returns:
+            bool: True if downloaded else False.
+        """
+        pass
+
+    def select_pexels(self, pexels) -> 'generator':
+        """This method selects the images urls and delet pexels html
+        pages files.
+
+        Args:
+            pexels (generator): generate url pages.
+
+        Returns:
+            tuple: with images str url.
+        """
+        pass
