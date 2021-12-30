@@ -6,5 +6,9 @@
     """
 
 
+from core.view.uipexels import UIPexels
+
+
 if __name__ == '__main__':
-    pass
+    # Calling user interface -> UI (CLI or GUI)
+    UIPexels()
