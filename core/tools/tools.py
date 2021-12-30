@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 # PATH UTILITIES ----------------------------------------------------
 
 
-def intialpath() -> str:
+def initialpath() -> str:
     """It returns to project root directory, no matter
     where it be.
 
