@@ -11,6 +11,7 @@ class Pexels:
         """
         self._urlimages = list()
         self._pathdir = str()
+        self._pexelsimages = tuple()
 
     # getters and setters
 
@@ -25,3 +26,11 @@ class Pexels:
     @pathdir.setter
     def pathdir(self, pathdir: str):
         self._pathdir = pathdir
+
+    @property
+    def pexelsimages(self):
+        return self._pexelsimages
+
+    @pexelsimages.setter
+    def pexelsimages(self, pexelsimages: tuple):
+        self._pexelsimages = pexelsimages
