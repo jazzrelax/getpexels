@@ -62,8 +62,8 @@ def joindirfile(pathfile: str) -> str:
     Returns:
         str: joined file or dir.
     """
-    pathfile = intialpath() + f'/{pathfile}' \
-        if pathfile[0] != '/' else intialpath() + f'{pathfile}'
+    pathfile = initialpath() + f'/{pathfile}' \
+        if pathfile[0] != '/' else initialpath() + f'{pathfile}'
     return pathfile
 
 
